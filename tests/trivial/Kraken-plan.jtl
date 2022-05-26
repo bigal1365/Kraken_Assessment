@@ -1,0 +1,57 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1653593390652,599,Tc_01_Get the server\'s time,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-1,,true,,853,397,1,1,null,0,54,440
+1653593390701,599,GET  https://api.kraken.com/0/public/Time,200,OK,Kraken_take_home 1-1,text,true,,853,397,1,1,https://api.kraken.com/0/public/Time,596,0,440
+1653593391307,138,Tc_02_Get the current system status,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-1,,true,,577,569,1,1,null,0,1,0
+1653593391307,138,GET  https://api.kraken.com/0/public/SystemStatus,200,OK,Kraken_take_home 1-1,text,true,,577,569,1,1,https://api.kraken.com/0/public/SystemStatus,138,0,0
+1653593391446,181,"Tc_03_Get information about the assets that are available for deposit, withdrawal, trading and staking.",200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-1,,true,,743,593,1,1,null,0,0,0
+1653593391446,181,"GET  https://api.kraken.com/0/public/Assets?asset=XBT,E...",200,OK,Kraken_take_home 1-1,text,true,,743,593,1,1,"https://api.kraken.com/0/public/Assets?asset=XBT,ETH&aclass=currency",181,0,0
+1653593391628,211,Tc_04_Get tradable asset pair,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-1,,true,,1741,590,1,1,null,0,0,0
+1653593391628,211,GET  https://api.kraken.com/0/public/AssetPairs?pair=XX...,200,OK,Kraken_take_home 1-1,text,true,,1741,590,1,1,"https://api.kraken.com/0/public/AssetPairs?pair=XXBTZUSD,XETHXXBT",210,0,0
+1653593391840,101,Tc_05_Get Ticker Information,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-1,,true,,855,575,1,1,null,0,1,0
+1653593391840,101,GET  https://api.kraken.com/0/public/Ticker?pair=XBTUSD,200,OK,Kraken_take_home 1-1,text,true,,855,575,1,1,https://api.kraken.com/0/public/Ticker?pair=XBTUSD,100,0,0
+1653593391942,163,Tc_06_Get OHLC Data,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-1,,true,,57371,573,1,1,null,0,2,0
+1653593391943,163,GET  https://api.kraken.com/0/public/OHLC?pair=XBTUSD,200,OK,Kraken_take_home 1-1,text,true,,57371,573,1,1,https://api.kraken.com/0/public/OHLC?pair=XBTUSD,151,0,0
+1653593392107,107,Tc_07_Get Order Book,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-1,,true,,59322,575,1,1,null,0,2,0
+1653593392108,107,GET  https://api.kraken.com/0/public/Trades?pair=XBTUSD,200,OK,Kraken_take_home 1-1,text,true,,59322,575,1,1,https://api.kraken.com/0/public/Trades?pair=XBTUSD,99,0,0
+1653593465643,216,Tc_01_Get the server\'s time,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-2,,true,,853,397,1,1,null,0,2,85
+1653593465644,216,GET  https://api.kraken.com/0/public/Time,200,OK,Kraken_take_home 1-2,text,true,,853,397,1,1,https://api.kraken.com/0/public/Time,215,0,85
+1653593465861,181,Tc_02_Get the current system status,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-2,,true,,577,569,1,1,null,0,1,0
+1653593465862,181,GET  https://api.kraken.com/0/public/SystemStatus,200,OK,Kraken_take_home 1-2,text,true,,577,569,1,1,https://api.kraken.com/0/public/SystemStatus,180,0,0
+1653593466043,138,"Tc_03_Get information about the assets that are available for deposit, withdrawal, trading and staking.",200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-2,,true,,740,593,1,1,null,0,1,0
+1653593466044,138,"GET  https://api.kraken.com/0/public/Assets?asset=XBT,E...",200,OK,Kraken_take_home 1-2,text,true,,740,593,1,1,"https://api.kraken.com/0/public/Assets?asset=XBT,ETH&aclass=currency",137,0,0
+1653593466183,142,Tc_04_Get tradable asset pair,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-2,,true,,1741,590,1,1,null,0,1,0
+1653593466184,142,GET  https://api.kraken.com/0/public/AssetPairs?pair=XX...,200,OK,Kraken_take_home 1-2,text,true,,1741,590,1,1,"https://api.kraken.com/0/public/AssetPairs?pair=XXBTZUSD,XETHXXBT",141,0,0
+1653593466327,30,Tc_05_Get Ticker Information,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-2,,true,,865,575,1,1,null,0,0,0
+1653593466327,30,GET  https://api.kraken.com/0/public/Ticker?pair=XBTUSD,200,OK,Kraken_take_home 1-2,text,true,,865,575,1,1,https://api.kraken.com/0/public/Ticker?pair=XBTUSD,30,0,0
+1653593466358,175,Tc_06_Get OHLC Data,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-2,,true,,57374,573,1,1,null,0,0,0
+1653593466358,175,GET  https://api.kraken.com/0/public/OHLC?pair=XBTUSD,200,OK,Kraken_take_home 1-2,text,true,,57374,573,1,1,https://api.kraken.com/0/public/OHLC?pair=XBTUSD,165,0,0
+1653593466534,114,Tc_07_Get Order Book,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-2,,true,,59313,575,1,1,null,0,1,0
+1653593466534,114,GET  https://api.kraken.com/0/public/Trades?pair=XBTUSD,200,OK,Kraken_take_home 1-2,text,true,,59313,575,1,1,https://api.kraken.com/0/public/Trades?pair=XBTUSD,108,0,0
+1653593540645,225,Tc_01_Get the server\'s time,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-3,,true,,853,397,1,1,null,0,2,87
+1653593540646,225,GET  https://api.kraken.com/0/public/Time,200,OK,Kraken_take_home 1-3,text,true,,853,397,1,1,https://api.kraken.com/0/public/Time,225,0,87
+1653593540872,161,Tc_02_Get the current system status,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-3,,true,,577,569,1,1,null,0,2,0
+1653593540873,161,GET  https://api.kraken.com/0/public/SystemStatus,200,OK,Kraken_take_home 1-3,text,true,,577,569,1,1,https://api.kraken.com/0/public/SystemStatus,161,0,0
+1653593541035,153,"Tc_03_Get information about the assets that are available for deposit, withdrawal, trading and staking.",200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-3,,true,,743,593,1,1,null,0,2,0
+1653593541036,153,"GET  https://api.kraken.com/0/public/Assets?asset=XBT,E...",200,OK,Kraken_take_home 1-3,text,true,,743,593,1,1,"https://api.kraken.com/0/public/Assets?asset=XBT,ETH&aclass=currency",153,0,0
+1653593541190,132,Tc_04_Get tradable asset pair,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-3,,true,,1741,590,1,1,null,0,2,0
+1653593541191,132,GET  https://api.kraken.com/0/public/AssetPairs?pair=XX...,200,OK,Kraken_take_home 1-3,text,true,,1741,590,1,1,"https://api.kraken.com/0/public/AssetPairs?pair=XXBTZUSD,XETHXXBT",132,0,0
+1653593541324,40,Tc_05_Get Ticker Information,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-3,,true,,863,575,1,1,null,0,1,0
+1653593541324,40,GET  https://api.kraken.com/0/public/Ticker?pair=XBTUSD,200,OK,Kraken_take_home 1-3,text,true,,863,575,1,1,https://api.kraken.com/0/public/Ticker?pair=XBTUSD,40,0,0
+1653593541365,173,Tc_06_Get OHLC Data,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-3,,true,,57374,573,1,1,null,0,1,0
+1653593541366,173,GET  https://api.kraken.com/0/public/OHLC?pair=XBTUSD,200,OK,Kraken_take_home 1-3,text,true,,57374,573,1,1,https://api.kraken.com/0/public/OHLC?pair=XBTUSD,167,0,0
+1653593541540,130,Tc_07_Get Order Book,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-3,,true,,59315,575,1,1,null,0,1,0
+1653593541540,130,GET  https://api.kraken.com/0/public/Trades?pair=XBTUSD,200,OK,Kraken_take_home 1-3,text,true,,59315,575,1,1,https://api.kraken.com/0/public/Trades?pair=XBTUSD,124,0,0
+1653593615644,220,Tc_01_Get the server\'s time,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-4,,true,,853,397,1,1,null,0,2,74
+1653593615645,220,GET  https://api.kraken.com/0/public/Time,200,OK,Kraken_take_home 1-4,text,true,,853,397,1,1,https://api.kraken.com/0/public/Time,220,0,74
+1653593615868,153,Tc_02_Get the current system status,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-4,,true,,577,569,1,1,null,0,0,0
+1653593615868,153,GET  https://api.kraken.com/0/public/SystemStatus,200,OK,Kraken_take_home 1-4,text,true,,577,569,1,1,https://api.kraken.com/0/public/SystemStatus,153,0,0
+1653593616022,131,"Tc_03_Get information about the assets that are available for deposit, withdrawal, trading and staking.",200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-4,,true,,743,593,1,1,null,0,1,0
+1653593616022,131,"GET  https://api.kraken.com/0/public/Assets?asset=XBT,E...",200,OK,Kraken_take_home 1-4,text,true,,743,593,1,1,"https://api.kraken.com/0/public/Assets?asset=XBT,ETH&aclass=currency",131,0,0
+1653593616154,149,Tc_04_Get tradable asset pair,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-4,,true,,1741,590,1,1,null,0,1,0
+1653593616155,149,GET  https://api.kraken.com/0/public/AssetPairs?pair=XX...,200,OK,Kraken_take_home 1-4,text,true,,1741,590,1,1,"https://api.kraken.com/0/public/AssetPairs?pair=XXBTZUSD,XETHXXBT",148,0,0
+1653593616304,34,Tc_05_Get Ticker Information,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-4,,true,,865,575,1,1,null,0,2,0
+1653593616305,34,GET  https://api.kraken.com/0/public/Ticker?pair=XBTUSD,200,OK,Kraken_take_home 1-4,text,true,,865,575,1,1,https://api.kraken.com/0/public/Ticker?pair=XBTUSD,34,0,0
+1653593616340,198,Tc_06_Get OHLC Data,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-4,,true,,57381,573,1,1,null,0,2,0
+1653593616341,198,GET  https://api.kraken.com/0/public/OHLC?pair=XBTUSD,200,OK,Kraken_take_home 1-4,text,true,,57381,573,1,1,https://api.kraken.com/0/public/OHLC?pair=XBTUSD,185,0,0
+1653593616540,121,Tc_07_Get Order Book,200,"Number of samples in transaction : 1, number of failing samples : 0",Kraken_take_home 1-4,,true,,59322,575,1,1,null,0,0,0
+1653593616540,121,GET  https://api.kraken.com/0/public/Trades?pair=XBTUSD,200,OK,Kraken_take_home 1-4,text,true,,59322,575,1,1,https://api.kraken.com/0/public/Trades?pair=XBTUSD,114,0,0
